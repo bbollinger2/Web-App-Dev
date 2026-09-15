@@ -1,0 +1,114 @@
+
+/* This is a CSS file for styling the Lab #4 webpage */
+
+/* The color scheme and the font are based on the theme and colors from Elden Ring which the webpage is based on. */
+
+
+
+/* This part of the CSS file is for styling the header elements (h1 and h2) on the webpage. */
+h1 {
+    color: #bd6707;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #bd6707;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    scroll-margin-top: 80px;
+}
+
+
+/* This part of the CSS file is for styling the body of the webpage. */
+body {
+    font-family: garamond , serif;
+    margin: 0;
+    padding: 0;
+    background-color: #040200;
+}
+
+
+/* This part of the CSS file is for styling the paragraph elements (p) on the webpage. */
+p {
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 30px;
+    color: #f9c043;
+    text-align: center;
+}
+
+
+/* This part of the CSS file is for styling the navigation bar (nav) on the webpage. */
+nav {
+    background-color: #653815;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #bd6707;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #f9c043;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    gap: 20px;
+}
+
+
+/* This part of the CSS file is for styling the table elements on the webpage. */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #bd6707;
+}
+
+th, td {
+    color: #f9c043;
+    padding: 10px;
+    text-align: left;
+}
+
+/* This part of the CSS file is for styling the image elements on the webpage. */
+img {
+    border: 2px solid #bd6707;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* This part of the CSS file is for styling the footer elements on the webpage. */
+footer {
+    background-color: #27170d;
+    color: #bd6707;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+}
+
