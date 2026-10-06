@@ -1,0 +1,94 @@
+
+/* This page is for the styling of the webpage and required for Part A. */
+
+
+
+/* This part of the CSS file is for styling the header elements (h1 and h2) on the webpage. */
+
+h1 {
+    color: hotpink;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: hotpink;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    scroll-margin-top: 80px;
+}
+
+
+
+/* This part of the CSS file is for styling the body of the webpage. */
+
+body {
+    font-family: times new roman, serif;
+    margin: 0;
+    padding: 0;
+    background-color: purple;
+}
+
+
+
+/* This part of the CSS file is for styling the paragraph elements (p) on the webpage. */
+
+p {
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 30px;
+    color: lightblue;
+    text-align: center;
+}
+
+
+
+/* This code is for styling the navigation bar (nav) on the webpage. */
+
+nav {
+    background-color: hotpink;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: lightblue;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    gap: 20px;
+}
+
+
+
+/* This part of the CSS file is for styling the footer elements on the webpage. */
+
+footer {
+    background-color: hotpink;
+    color: lightblue;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+}
